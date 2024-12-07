@@ -25,9 +25,9 @@ template *as-is*, meaning using the versions recommended here, then you will nee
 
 * **ImGui** - found at [https://github.com/ocornut/imgui/](https://github.com/ocornut/imgui/)
 
-* **OpenGL** - found at [https://github.com/ocornut/imgui/](https://github.com/ocornut/imgui/)
+* **OpenGL** - found at [https://www.opengl.org/](https://www.opengl.org/)
 
-* **GLFW3** - found at [https://github.com/ocornut/imgui/](https://github.com/ocornut/imgui/)
+* **GLFW3** - found at [https://github.com/glfw/glfw](https://github.com/glfw/glfw)
 
 
 ### Installing
@@ -47,8 +47,8 @@ to the the one below:
 
 ```bash
 mkdir build/ && cd build/
-cmake .. -DCMAKE_INSTALL_PREFIX=/absolute/path/to/custom/install/directory
-cmake --build . --target install
+cmake ..
+cmake --build .
 ```
 ## Running the tests
 
