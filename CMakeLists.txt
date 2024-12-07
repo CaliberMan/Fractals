@@ -5,11 +5,15 @@ project(Fractals)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+# Add ImGui
+add_subdirectory(libs/imgui)
+include_directories(${CMAKE_SOURCE_DIR}/libs/imgui)
+
+find_package(glfw3 3.3 REQUIRED)
+include_directories(${GLFW_INCLUDE_DIRS})
+
 # Add the executable
 add_executable(Fractals main.cc)
 
-# Include directories for dependencies (if any)
-# include_directories(${CMAKE_SOURCE_DIR}/path/to/dependencies)
-
-# Link libraries (if any)
-# target_link_libraries(Fractals PRIVATE library_name)
+# Link ImGui
+target_link_libraries(Fractals PRIVATE imgui)

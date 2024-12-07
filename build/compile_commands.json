@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/jordan/projects/Fractals/build",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/Fractals.dir/main.cc.o -c /home/jordan/projects/Fractals/main.cc",
+  "file": "/home/jordan/projects/Fractals/main.cc",
+  "output": "CMakeFiles/Fractals.dir/main.cc.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/imgui.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/imgui.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/imgui_demo.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/imgui_demo.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/imgui_draw.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/imgui_draw.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/imgui_tables.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/imgui_tables.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/jordan/projects/Fractals/build/libs/imgui",
+  "command": "/usr/bin/g++  -I/home/jordan/projects/Fractals/libs/imgui -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/jordan/projects/Fractals/libs/imgui/imgui_widgets.cpp",
+  "file": "/home/jordan/projects/Fractals/libs/imgui/imgui_widgets.cpp",
+  "output": "libs/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+}
+]

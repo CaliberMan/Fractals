@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include "imgui.h"
 
 int main() {
-  printf("Hello, World!\n");
+  // ImGui create display window
+  
+
+  // ImGui render display window
+  // ImGui destroy display window
   return 0;
 }

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Fractals.dir/main.cc.o -o Fractals  libs/imgui/libimgui.a 
