@@ -25,6 +25,11 @@ template *as-is*, meaning using the versions recommended here, then you will nee
 
 * **ImGui** - found at [https://github.com/ocornut/imgui/](https://github.com/ocornut/imgui/)
 
+* **OpenGL** - found at [https://github.com/ocornut/imgui/](https://github.com/ocornut/imgui/)
+
+* **GLFW3** - found at [https://github.com/ocornut/imgui/](https://github.com/ocornut/imgui/)
+
+
 ### Installing
 
 It is fairly easy to install the project, all you need to do is clone if from

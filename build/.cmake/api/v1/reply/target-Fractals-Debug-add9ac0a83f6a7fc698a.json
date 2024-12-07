@@ -12,11 +12,15 @@
 		[
 			"add_executable",
 			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"set_target_properties",
 			"include_directories"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"/usr/share/cmake-3.28/Modules/FindOpenGL.cmake"
 		],
 		"nodes" : 
 		[
@@ -26,17 +30,39 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 19,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
 				"command" : 2,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 671,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
 				"file" : 0,
 				"line" : 10,
 				"parent" : 0
@@ -55,7 +81,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 7,
 					"path" : "/home/jordan/projects/Fractals/libs/imgui"
 				}
 			],
@@ -97,6 +123,21 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "libs/imgui/libimgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libglfw.so.3.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
 				"role" : "libraries"
 			}
 		],

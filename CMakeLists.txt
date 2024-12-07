@@ -9,6 +9,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(libs/imgui)
 include_directories(${CMAKE_SOURCE_DIR}/libs/imgui)
 
+find_package(OpenGL REQUIRED)
+include_directories(${OPENGL_INCLUDE_DIRS})
+
 find_package(glfw3 3.3 REQUIRED)
 include_directories(${GLFW_INCLUDE_DIRS})
 
@@ -16,4 +19,4 @@ include_directories(${GLFW_INCLUDE_DIRS})
 add_executable(Fractals main.cc)
 
 # Link ImGui
-target_link_libraries(Fractals PRIVATE imgui)
+target_link_libraries(Fractals PRIVATE imgui glfw OpenGL::GL)
