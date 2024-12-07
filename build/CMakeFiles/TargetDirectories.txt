@@ -1,6 +1,0 @@
-/home/jordan/projects/Fractals/build/CMakeFiles/Fractals.dir
-/home/jordan/projects/Fractals/build/CMakeFiles/edit_cache.dir
-/home/jordan/projects/Fractals/build/CMakeFiles/rebuild_cache.dir
-/home/jordan/projects/Fractals/build/libs/imgui/CMakeFiles/imgui.dir
-/home/jordan/projects/Fractals/build/libs/imgui/CMakeFiles/edit_cache.dir
-/home/jordan/projects/Fractals/build/libs/imgui/CMakeFiles/rebuild_cache.dir
